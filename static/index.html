@@ -6,7 +6,11 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- this is a comment in HTML -->
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
 	<link href="css/introHCI.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto|ZCOOL+QingKe+HuangYou" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -19,51 +23,57 @@
 	<div>
 		<!-- h1 through h6 are headers. The higher the number, the smaller the header -->
 		<!-- p means paragraph -->
-		<div id="name">
-			<h1>Junlin Lu</h1>
-			<p>Digital Design &middot; Branding &middot; Video Editing</p>
+		<div class="jumbotron">
+			<h1 id="name">Junlin Lu</h1>
 		</div>
+			<p id="bio">Digital Design &middot; Branding &middot; Video Editing</p>
+
+		<img id="logo" src="images/plogo.png" alt="logo"> 
 
 
-		<h4>Projects</h4>
+		<div class="project">
+		<p class="title">Projects</p>
 		<!-- divs are invisible structuring elements that stack vertically by default. Use them to organize your code -->
 		<!-- img tags are images. Lorem Pixel will deliver random images; handy! -->
 		<!-- a are anchors, also known as hyperlinks. Use the href attribute to tell the browser where to go when the user clicks -->
-		<div id="project1">
 			<a href="https://drive.google.com/file/u/2/d/1Tcqk8DUfgGLonjPhlcxENYTAGlmpOugG/view?usp=sharing">
-				<img src="https://static1.squarespace.com/static/58f8392fbe65944c6f622dc6/t/5be0bf5b4fa51a80cb402840/1541455794972/Animation?format=1000w">
-				<p>Pixel Animation</p>
-			</a>
-		</div>
-
-		<h4>Digital Design Works</h4>
-		<div id="project2">
-			<p>These are some of the work I submitted for a Visual Arts class I took. The class primarily focused on the use of Adobe programs such as Photoshop and InDesign. </p>
-			<a href="project.html">
-				<img src="https://static1.squarespace.com/static/58f8392fbe65944c6f622dc6/t/5a66afb0ec212de4333d3a05/1516679271389/Screen+Shot+2017-05-15+at+1.46.18+AM.png?format=750w" alt="pic1">
+				<img id="image" src="https://static1.squarespace.com/static/58f8392fbe65944c6f622dc6/t/5be0bf5b4fa51a80cb402840/1541455794972/Animation?format=1000w">
 				
 			</a>
-		</div>
-		<div id="project3">
-			<a href="project.html">
-				<img src="https://static1.squarespace.com/static/58f8392fbe65944c6f622dc6/t/5a67cc8b71c10b652f139d18/1516752025874/1.jpg?format=750w">
+
+		<p class="title">Digital Design Works</p>
+
+			<p>These are some of the work I submitted for a Visual Arts class I took. <br>
+			The class primarily focused on the use of Adobe programs such as Photoshop and InDesign. </p>
+		
+				<img id="image" src="https://static1.squarespace.com/static/58f8392fbe65944c6f622dc6/t/5a66afb0ec212de4333d3a05/1516679271389/Screen+Shot+2017-05-15+at+1.46.18+AM.png?format=750w" alt="pic1">
+				
 			</a>
-		</div>
+
+
+				<img id="image" src="https://static1.squarespace.com/static/58f8392fbe65944c6f622dc6/t/5a67cc8b71c10b652f139d18/1516752025874/1.jpg?format=750w">
+			</a>
+
 		
 
-		<h4> Group Portfolio </h4>
-		<div id="portfolio1">
-			<a href="https://drive.google.com/file/d/1pfR0ms6lf8nbSiGSiWh7kfT1D2pjJr3b/view?usp=drive_open">
-				<img src="https://static1.squarespace.com/static/58f8392fbe65944c6f622dc6/t/5a67cef724a69478109f8cd4/1516752738902/UCSDMTS.png?format=750w">
-			</a>
-		</div>
+		<p class="title"> Group Portfolio </p>
 
-		<div id="portfolio2">
+			<a href="https://drive.google.com/file/d/1pfR0ms6lf8nbSiGSiWh7kfT1D2pjJr3b/view?usp=drive_open">
+				<img id ="image" src="https://static1.squarespace.com/static/58f8392fbe65944c6f622dc6/t/5a67cef724a69478109f8cd4/1516752738902/UCSDMTS.png?format=750w">
+			</a>
+
+
+
 			<a href="https://drive.google.com/file/d/1bwH2E0bPf1YosOqKhobIAFTuufbUPgcM/view">
-				<img src="https://static1.squarespace.com/static/58f8392fbe65944c6f622dc6/t/5a67cf2d9140b7f62712f22a/1516752694169/tritech.png?format=750w">
+				<img id= "image" src="https://static1.squarespace.com/static/58f8392fbe65944c6f622dc6/t/5a67cf2d9140b7f62712f22a/1516752694169/tritech.png?format=750w">
 			</a>
 		</div>
 
 	</div>
+	
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<!-- Include all compiled plugins (blelow), or include individual files as needed -->
+	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
